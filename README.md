@@ -17,7 +17,7 @@ Usernames are unique, so are emails
 
 Password -  Must contain at least one number, one uppercase, one lowercase, and be 8+ characters long
 
-The passwords are encrypted with argon2 hash, the web app uses jwebtoken for cookies and sequelize to handle database queries and postgres usage, routes are protected and theres sanitization on every input field.
+The passwords are encrypted with argon2 hash, the web app uses jwebtoken for cookies and sequelize , axios to handle database queries and CRUD usage, routes are protected and theres sanitization on every input field.
 
 The Admin can create services, delete them, add dates for them, which they or the users can RSVP ( reserve ), they can edit them as well.
 
