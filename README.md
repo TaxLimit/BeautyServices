@@ -23,7 +23,7 @@ The Admin can create services, delete them, add dates for them, which they or th
 
 The Users can reserve dates ( multiple users can reserve the same dates ) , they can view their reservations and cancel them if neeeded. 
 
-Guests are free to view all available services and see available times, but they need to login before they can reserve ( auth prevents it )
+Guests are free to view all available services , filter by category and search for specific services and see available times, but they need to login before they can reserve ( auth prevents it )
 
 
 
