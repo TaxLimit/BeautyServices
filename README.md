@@ -19,7 +19,7 @@ Password -  Must contain at least one number, one uppercase, one lowercase, and 
 
 The passwords are encrypted with argon2 hash, the web app uses jwebtoken for cookies and sequelize to handle database queries and postgres usage, routes are protected and theres sanitization on every input field.
 
-The Admin can create services, delete them, add dates for them which they or the users can RSVP ( reserve ), they can edit them as well.
+The Admin can create services, delete them, add dates for them, which they or the users can RSVP ( reserve ), they can edit them as well.
 
 The Users can reserve dates ( multiple users can reserve the same dates ) , they can view their reservations and cancel them if neeeded. 
 
