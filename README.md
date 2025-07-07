@@ -9,7 +9,7 @@ PostgresDB PORT - 3000
 
 NodeJS Backend Server PORT - 3002 || 3003
 
-In dbInit.mjs , uncomment sequelize.sync and change alter to force for it to automatically set up the working tables and collumns in postgres
+In dbInit.mjs , uncomment sequelize.sync and change alter to force on the first startup, for it to automatically set up the working tables and collumns in postgres
 
 Frontend Vite Application running on  http://localhost:5173/
 
